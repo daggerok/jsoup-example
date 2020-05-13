@@ -1,0 +1,12 @@
+language: java
+jdk: openjdk11
+env:
+  global:
+    secure: e7lTrklbW93rDP2C1NfGkyeF/6IiQLzuo9iljUS1Voc5LkU3qsSKKpY3dKflh9y6JKQkMJpqXgo7uYGqU6wCwzx1C0+Hp3L0t8RuQN79ruDCOum5SwcjycLRa6AM4lJq0Gu+eiSvamhUOJXrdwYYj5UVdETVH12t5+Jr5HJlE7Jr8KvvTuYy9PPQ8GIVExviqQRCCqQYTQWCmcDEEleXTOMZbXWz1Z1ciUDReePIE5DhS1ibXg3iGcdERGsNtJmMmNv+WsMXJV54lIMLUHk0jFaclGAll8qlX+PFOmXWYTV/SdeCTMTNLqA5rf4HCCEH1xsEbKVuvugBlnQtmRxFD//ABQzOU0ThbSseYtcHY3f0fZJ0c4IgoHSf3wtnOuFhKjmBqT+o7/3XRiuKe3XXNO1uEQY0fPFr6n5r7bME7EWje0kvstJxCx0lsYpmYUXOAUQGQZ0leESWnfuh/dk+Mkl2axZiaT3+wLwaB6zBuRFTTNpdOEo5XHhGcWvj3GwFsBx/TxTcjHxp/Rq5DycdnW2d7N5lNonx3FgKnmIY3HLhwpV6AoHQquKdV/rfu51FVciNwpu50Jzwg4/49jDW4heEv9gqlDAS/Q/sECenwIou8ssdalZWx8XhK+zkvtONESNanF0+bcBJX57gLkg3uxCVYugyfV3Wp4o7blJvy3o=
+notifications:
+  email: false
+cache:
+  directories:
+  - ~/.m2
+install: true
+script: ./mvnw
