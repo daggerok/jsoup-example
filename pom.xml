@@ -16,7 +16,7 @@
   <properties>
     <java.version>11</java.version>
     <vavr.version>0.10.2</vavr.version>
-    <jsoup.version>1.13.1</jsoup.version>
+    <jsoup.version>1.14.2</jsoup.version>
   </properties>
   <dependencies>
     <dependency>
