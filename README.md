@@ -1,4 +1,5 @@
-# jsoup web client [![Build Status](https://travis-ci.org/daggerok/jsoup-example.svg?branch=master)](https://travis-ci.org/daggerok/jsoup-example)
+# jsoup web client [![CI](https://github.com/daggerok/jsoup-example/actions/workflows/maven.yml/badge.svg)](https://github.com/daggerok/jsoup-example/actions/workflows/maven.yml)
+<!-- [![Build Status](https://travis-ci.org/daggerok/jsoup-example.svg?branch=master)](https://travis-ci.org/daggerok/jsoup-example) -->
 jsoup web client example
 
 ## resources
