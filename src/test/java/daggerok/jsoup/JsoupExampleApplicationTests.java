@@ -19,7 +19,7 @@ class JsoupExampleApplicationTests {
   Integer port;
 
   @Test
-  void test() {
+  void test_jsonp_connect_DOM() {
     var connection = Jsoup.connect(String.format("http://127.0.0.1:%d", port));
     var document = Try.of(connection::get)
                       .onFailure(System.err::println)
